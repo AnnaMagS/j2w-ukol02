@@ -8,10 +8,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" type="image/png" href="/images/favicon.png">
 </head>
-<body><div>
-    <div>
-        <img class="cit" th:src="${obrazek}" />
-    </div>
-    <div>Padlo číslo: <span th:text="${cislo}">1</span></div>
-</div></body>
+<body th:style="${bodyStyle}">
+        <blockquote><span th:text="${citat}"></span></blockquote>
+</body>
 </html>
